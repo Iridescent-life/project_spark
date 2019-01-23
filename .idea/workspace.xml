@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59f5d0e8-73c5-480e-adb9-d3efc854ce07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/te.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,34 +29,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/targetanalyse/carcrashanalyse/CarTrashOfSpecificTime.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/targetanalyse/trafficanalyse/RandomDrawingSample.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="106" column="30" lean-forward="true" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/te.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topk/FindMinNumIncluedTopN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topk/MinHeap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="e#1684#1685#0" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;component name=&quot;PropertiesComponent&quot;&gt;</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +88,13 @@
         <option value="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/targetanalyse/trafficanalyse/RandomDrawingSample.scala" />
         <option value="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/targetanalyse/trafficanalyse/Top3CarOfAreaRoad.scala" />
         <option value="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/te.scala" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/sort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topk/MinHeap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topk/te.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topk/FindMinNumIncluedTopN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/Solution.java" />
       </list>
     </option>
   </component>
@@ -110,8 +128,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="298" />
-    <option name="y" value="386" />
+    <option name="x" value="-66" />
+    <option name="y" value="85" />
     <option name="width" value="1547" />
     <option name="height" value="952" />
   </component>
@@ -123,12 +141,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="project_spark" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_spark" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_spark" type="b2602c69:ProjectViewProjectNode" />
@@ -168,20 +193,29 @@
             <path>
               <item name="project_spark" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qftfmp" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="topk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_spark" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548119033543" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548144516996" />
+    <property name="dynamic.classpath" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -209,6 +243,54 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.FindMinNumIncluedTopN">
+    <configuration name="FindMinNumIncluedTopN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.qianfeng.qftfmp.utils.topk.FindMinNumIncluedTopN" />
+      <module name="project_spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qianfeng.qftfmp.utils.topk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.qianfeng.qftfmp.utils.Solution" />
+      <module name="project_spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qianfeng.qftfmp.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.qianfeng.qftfmp.utils.sort" />
+      <module name="project_spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qianfeng.qftfmp.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FindMinNumIncluedTopN" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.sort" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -226,18 +308,23 @@
       <workItem from="1547721915975" duration="1874000" />
       <workItem from="1547878324289" duration="1363000" />
       <workItem from="1548079665277" duration="55000" />
-      <workItem from="1548118415425" duration="552000" />
+      <workItem from="1548118415425" duration="994000" />
+      <workItem from="1548137018722" duration="2620000" />
+      <workItem from="1548140631180" duration="599000" />
+      <workItem from="1548141606172" duration="2215000" />
+      <workItem from="1548144430203" duration="117000" />
+      <workItem from="1548144572275" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5872000" />
+    <option name="totallyTimeSpent" value="12464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2385382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -246,7 +333,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21008404" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19775596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,17 +483,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/targetanalyse/trafficanalyse/RandomDrawingSample.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/te.scala" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="106" column="30" lean-forward="true" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+        <state relative-caret-position="263">
+          <caret line="200" column="19" lean-forward="true" selection-start-line="200" selection-start-column="19" selection-end-line="200" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/te.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/targetanalyse/trafficanalyse/RandomDrawingSample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="505">
+          <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topK.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topk/te.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-846">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="16" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topk/FindMinNumIncluedTopN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/qianfeng/qftfmp/utils/topk/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#1684#1685#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
